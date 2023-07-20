@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+    background-color:bisque;
+  }
+  
+  header {
+    background-color:burlywood;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+ 
+  .column {
+    float: left;
+    padding: 10px;
+  }
+  
+ 
+  .column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+  }
+  
+  .column img:hover {
+    opacity: 1;
+    border: 5px solid rgb(0, 0, 0);
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  #imgtext {
+    position:fixed;
+    bottom: 15px;
+    left: 15px;
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+    background-color: rgba(255, 255, 255, 0.441);
+  }
+  
+
+  #image-rollover {
+    background-color: #000;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+  }
+  
+  #image-rollover:hover {
+    font-size: larger;
+    font-style: oblique;
+  }
+
+
